@@ -1,16 +1,70 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>HTML Assignment 3</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 50px;
+        }
+
+        .middle {
+            border: 1px solid black;
+            border-spacing: 1px;
+            padding: 1px;
+            margin: auto;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
-</html>
+    <h1>HTML Assignment #3</h1>
+    <table id="table-1" class="middle">
+        <tr>
+            <td id="t11">Row 1, Column 1</td>
+            <td id="t12">Row 1, Column 2</td>
+            <td id="t13" class="right">Row 1, Column 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr class="center">
+            <td>Row 3, Column 1</td>
+            <td>Row 3, Column 2</td>
+            <td>Row 3, Column 3</td>
+        </tr>
+    </table>
+    <br>
+    <table id="table-2" class="middle">
+        <tr>
+            <td id="t21" colspan="6">This is a colspanned cell spanning all columns</td>
+        </tr>
+        <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+            <td>Row 2, Column 3</td>
+            <td>Row 2, Column 4</td>
+            <td>Row 2, Column 5</td>
+           
